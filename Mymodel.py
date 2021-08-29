@@ -28,7 +28,7 @@ def plothistory(history):
         plt.legend(['Train', 'Test'], loc='upper left')
         plt.show()
 
-# 绘制训练 & 验证的损失值
+# 繪製訓練 & 驗證的損失值
         plt.plot(history.history['loss'])
         plt.plot(history.history['val_loss'])
         plt.title('Model loss')
